@@ -1,43 +1,32 @@
 cask_args appdir: '/Applications'
 
-tap 'homebrew/bundle'
-tap 'puma/puma'
+tap "caskroom/cask"
+tap "caskroom/versions"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/services"
 
-brew 'ack'
-brew 'coreutils'
-brew 'go'
-brew 'grc'
-brew 'imagemagick'
-brew 'jp2a'
-brew 'jq'
-brew 'libcaca', args: ['with-imlib2']
-brew 'libgit2'
-brew 'openssl'
-brew 'node'
-brew 'readline'
-brew 'postgresql'
-brew 'puma/puma/puma-dev'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'roundup'
-brew 'spaceman-diff'
-brew 'spark'
-brew 'unrar'
-brew 'wget'
-brew 'yarn'
-brew 'youtube-dl'
+brew "imagemagick"
+brew "coreutils"
+brew "git", link: false
+brew "gnupg"
+brew "node", link: false
+brew "heroku"
+brew "libtool"
+brew "imagemagick"
+brew "openssl@1.1"
+brew "ruby"
+brew "tree"
+brew "watchman"
+brew "yarn"
+brew "zsh"
+brew "zsh-syntax-highlighting"
+brew "gzip"
 
-cask '1password'
-cask 'adium'
-cask 'atom'
-cask 'firefox'
-cask 'garmin-express'
+cask_args appdir: "/Applications"
+cask "caffeine"
+cask "slack"
+cask "vagrant"
+cask "virtualbox"
 cask 'google-chrome'
-cask 'handbrake'
-cask 'mapbox-studio'
-cask 'seashore'
-cask 'slack'
-cask 'steam'
-cask 'transmission'
-cask 'tunnelbear'
-cask 'vlc'
+Cask 'visual-studio-code'
